@@ -11,7 +11,7 @@ This CocoaPods library helps you perform calculation.
   spec.homepage     = "https://github.com/rishopbabu/OptiscanBetaV2"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "rishopbabu" => "rishopbabu@optisolbusiness.com" }
-  spec.vendored_framewoeks = 'OptiScanBarcodeReader.framework'
+  spec.vendored_frameworks = 'OptiScanBarcodeReader.framework'
 
   spec.ios.deployment_target = "9.0"
   spec.swift_version = "5.0"
