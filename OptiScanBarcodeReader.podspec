@@ -18,7 +18,7 @@ This CocoaPods library helps you perform calculation.
 
   spec.source        = { :git => "https://github.com/rishopbabu/OptiscanBetaV2.git", :tag => "0.1.0" }
   spec.source_files  = "OptiScanBarcodeReader/**/*.{h,m,swift}"
-  spec.pod_target_xcconnfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  spec.user_target_xcconnfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
