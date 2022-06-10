@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   
   spec.static_framework = true
   
-  spec.source_files  = "OptiScanBarcodeReader/**/*.{h,m,swift}"
+  
   
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
