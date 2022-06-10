@@ -13,6 +13,7 @@
 		6A9A6FB12853620900982492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9A6FAF2853620900982492 /* Main.storyboard */; };
 		6A9A6FB32853620B00982492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9A6FB22853620B00982492 /* Assets.xcassets */; };
 		6A9A6FB62853620B00982492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9A6FB42853620B00982492 /* LaunchScreen.storyboard */; };
+		6A9A6FE22853722E00982492 /* OptiScanBarcodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9A6FE12853722E00982492 /* OptiScanBarcodeReader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6A9A6FB22853620B00982492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A9A6FB52853620B00982492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A9A6FB72853620B00982492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A9A6FE12853722E00982492 /* OptiScanBarcodeReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OptiScanBarcodeReader.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A9A6FE22853722E00982492 /* OptiScanBarcodeReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +59,7 @@
 		6A9A6FA82853620900982492 /* OptiscanBetaTesting */ = {
 			isa = PBXGroup;
 			children = (
+				6A9A6FE12853722E00982492 /* OptiScanBarcodeReader.framework */,
 				6A9A6FA92853620900982492 /* AppDelegate.swift */,
 				6A9A6FAB2853620900982492 /* SceneDelegate.swift */,
 				6A9A6FAD2853620900982492 /* ViewController.swift */,
@@ -287,6 +291,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OptiscanBetaTesting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +322,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OptiscanBetaTesting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
